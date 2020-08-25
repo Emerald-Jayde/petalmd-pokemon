@@ -1,0 +1,11 @@
+.DS_Store
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite

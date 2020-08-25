@@ -19,3 +19,8 @@ If no `page` parameter is given in the `GET all pokemons` request, the response 
 The pagination for the list of all Pokemon is set to a default limit of 100.
 However, that can be changed by setting the query param `limit=#`.
 * /api/v1/pokemons?page=1&limit=100
+
+## Tests
+The tests were written using RSpec. Make sure to run `bundle install` to ensure all the gems are installed.
+
+To run RSpec tests, run `rspec`.
